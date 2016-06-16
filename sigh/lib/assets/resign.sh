@@ -210,9 +210,9 @@ while [ "$1" != "" ]; do
 done
 
 KEYCHAIN_FLAG=
-if [ -n "$KEYCHAIN_PATH"]
+if [ -n "$KEYCHAIN_PATH" ]
 then
-    KEYCHAIN_FLAG="--keychain '$KEYCHAIN_PATH'"
+    KEYCHAIN_FLAG="--keychain $KEYCHAIN_PATH"
 fi
 
 # Log the options
